@@ -59,9 +59,52 @@ header{
         text-align: center;
     }
 
-    main .main-icon{
-        width: 530 px;
+    main .main-logo{
+        width: 530px;
         margin: 0 auto;
         margin-bottom: 35px;
 
+    }
+
+    main .main-logo img{
+    width: 272px;
+    height: 92px;
+        
+    }
+
+    main .main-input{
+        width: 530px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+
+    main .main-input-container{
+        width: 525px;
+        border-radius: 100px;
+        border: 1px solid #dfe1e5;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .main-input input{
+        width:450px;
+        height: 40px;
+        border: none;
+        outline: none;
+    }
+
+    /* pseudo elemento css efectos al colocar el cursor sobre la clase objeto */
+    main .main-input-container:hover{
+    box-shadow: 0 1px 6px #20212474;
+        border-color: #dfe1e500;
+    }
+
+    main .main-input .search-icon{
+        background-image: url('');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
     }
